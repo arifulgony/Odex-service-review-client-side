@@ -1,6 +1,7 @@
 import Main from "../../Layout/Main";
 import Blog from "../../Pages/Blog/Blog";
 import Details from "../../Pages/Details/Details";
+import ErrorPage from "../../Pages/ErrorPage/ErrorPage";
 import Home from "../../Pages/Home/Home/Home";
 import AddService from "../../Pages/Home/Services/AddService";
 import Services from "../../Pages/Home/Services/Services";
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       path: '/',
       element: <Main></Main>, 
       children: [
+        {
+          path:'*',
+          element:<ErrorPage></ErrorPage>
+        },
         {
             path: '/',
             element: <Home></Home>

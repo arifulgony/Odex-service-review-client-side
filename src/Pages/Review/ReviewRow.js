@@ -27,7 +27,7 @@ const ReviewRow = ({ review, handleDelete}) => {
                 </div>
             </td>
             <td><div className="font-bold"> {serviceName}</div></td>
-            <td className='bg-slate-600 '>
+            <td className=''>
                 <div className='table-data'><p>{message}</p></div>
             </td>
             <th className='flex justify-end'>
