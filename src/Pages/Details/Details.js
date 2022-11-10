@@ -43,7 +43,7 @@ const Details = () => {
         }
 
 
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://service-review-server-indol.vercel.app/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
@@ -66,7 +66,7 @@ const Details = () => {
 
     const [reviews, setReviews] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/reviews')
+        fetch('https://service-review-server-indol.vercel.app/reviews')
             .then(res => {
                 return res.json();
             })
