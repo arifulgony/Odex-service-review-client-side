@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Toaster } from 'react-hot-toast';
 import { Link } from 'react-router-dom';
 
 const ReviewRow = ({ review, handleDelete}) => {
@@ -35,7 +36,12 @@ const ReviewRow = ({ review, handleDelete}) => {
                </Link>
                 <label>
                     <button onClick={() => handleDelete(_id)} className='btn btn-outline btn-error'>Delete </button>
+                    <Toaster
+                        position="top-center"
+                        reverseOrder={false}
+                        />
                 </label>
+
             </th>
            
         </tr>

@@ -1,9 +1,14 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import  './Blog.css'
 
 const Blog = () => {
     return (
         <div className="main-contain">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Blog</title>
+            </Helmet>
         <div className='container pt-2'>
             <div className='question'>
                 <h3 className="question-text">Difference between SQL and NoSQL</h3>

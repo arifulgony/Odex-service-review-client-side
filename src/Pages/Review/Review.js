@@ -2,6 +2,8 @@ import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import ReviewRow from './ReviewRow';
 import './Review.css'
+import { Helmet } from 'react-helmet';
+import toast from 'react-hot-toast';
 
 
 const Review = () => {
@@ -40,7 +42,7 @@ const Review = () => {
                 .then(res => res.json())
                 .then(data => {
                     if (data.deletedCount > 0) {
-                        alert('deleted successfully');
+                        toast.success('Successfully toasted!');
                         const remaining = reviews.filter(odr => odr._id !== id);
                         setReviews(remaining);
                     }
@@ -50,6 +52,10 @@ const Review = () => {
 
     return (
         <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>review</title>
+            </Helmet>
             <h2 className="text-5xl">You have {reviews.length} Review</h2>
             <div className="overflow-x-auto w-full">
                 <table className="table w-full">

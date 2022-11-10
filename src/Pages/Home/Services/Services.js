@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import ServiceCard from './ServiceCard';
 
 const Services = () => {
@@ -14,6 +15,10 @@ const Services = () => {
 
     return (
         <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>services</title>
+            </Helmet>
             <div className='text-center mb-4'>
                 <h2 className="text-5xl py-5 font-semibold">Our Service</h2>
             </div>
