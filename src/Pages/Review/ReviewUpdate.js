@@ -10,7 +10,6 @@ const ReviewUpdate = () => {
 
     const inputeUpdate =event =>{
         event.preventDefault();
-       // console.log(user);
        fetch(`https://service-review-server-indol.vercel.app/reviews/${reviewUser._id}`, {
             method: 'PUT',
             headers: {
