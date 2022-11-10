@@ -82,14 +82,15 @@ const Details = () => {
              setReviews(uer)
             console.log(data)
             })
-    }, [user?.email,params])
+    }, [user,params])
 
  
 
     return (
         <div>
-            <h2 className="text-4xl">services : {title}</h2>
+            <h2 className="text-3xl font-bold">Details</h2>
                 <img src={img} alt="" />
+                <h2 className='font-bold text-2xl'> {title}</h2>
                 {showDet ? <p>{description}</p> : <p>{description.slice(0,100)}</p>}
                 <h4 className="text-3xl">Price: {price}</h4>
               

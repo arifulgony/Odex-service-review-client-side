@@ -28,7 +28,7 @@ const ReviewRow = ({ review, handleDelete}) => {
             </td>
             <td><div className="font-bold"> {serviceName}</div></td>
             <td className='bg-slate-600 '>
-                <div className='table-data '>{message}</div>
+                <div className='table-data'><p>{message}</p></div>
             </td>
             <th className='flex justify-end'>
                <Link to={`/update/${review._id}`}>

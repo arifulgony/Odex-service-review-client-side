@@ -11,16 +11,21 @@ import { Helmet } from 'react-helmet';
 const Home = () => {
 
     const [services, setServices] = useState([]);
+    const [lodding,setLodding]=useState(false)
     
     useEffect( () =>{
+        setLodding(true)
         fetch('https://service-review-server-indol.vercel.app/services')
         .then(res =>res.json())
         .then(data => setServices(data))
+        setLodding(false)
     }, []);
 
     return (
         <div>
-            <Helmet>
+           {lodding ? (<div className='text-center'><button className="btn btn-square loading text-center"></button></div>): (
+            <>
+                 <Helmet>
                 <meta charSet="utf-8" />
                 <title>Home</title>
             </Helmet>
@@ -52,7 +57,8 @@ const Home = () => {
                 </div>
              </div>
            
-           <h1 className='text-center text-5xl font-bold py-10'>How It Works</h1>
+            <div className='mb-11'>
+            <h1 className='text-center text-5xl font-bold py-10'>How It Works</h1>
                 <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3  '>
                    
                     <div className="card  w-96  ">
@@ -70,7 +76,10 @@ const Home = () => {
                       <div className=" text-3xl  text-center ">Wait for delivery</div>
                       <p className='text-center'>That could be because people can't or don't want to wait for a delivery van to show up, or they are in a hurry,t want to bother with a salesperson, .</p>
                     </div>
-                </div>       
+                </div> 
+            </div>
+            </>
+           )}
         </div>
        
         
