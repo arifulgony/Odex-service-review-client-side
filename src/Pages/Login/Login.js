@@ -29,7 +29,6 @@ const Login = () => {
 
             console.log(currentUser);
 
-            // get jwt token
             fetch('https://service-review-server-indol.vercel.app/jwt', {
                 method: 'POST',
                 headers: {
