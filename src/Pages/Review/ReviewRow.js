@@ -14,37 +14,25 @@ const ReviewRow = ({ review, handleDelete}) => {
 
 
     return (
-        <tr>
-           
-            <td>
-                <div className="flex items-center space-x-3">
-                    <div className="avatar">
-                        <div  className="w-24 h-24">
-                        { reviewService?.img && 
-                        <img src={reviewService.img} alt="img" />}
-                        </div>
-                    </div>
+        <>
+            <div className='mask  w-24 h-24'>{ reviewService?.img && 
+                        <img src={reviewService.img} alt="img" />}</div>
+                <div className="card-body">
+                    <h2 className="card-title">{serviceName}</h2>
+                    <p>{message}</p>
+                    <div className="card-actions justify-end">
+                    <Link to={`/update/${review._id}`}>
+                            <button className='btn btn-outline btn-success mr-2'>Update</button>
+                            </Link>
+                            <button onClick={() => handleDelete(_id)} className='btn btn-outline btn-error'>Delete </button>
+                                 <Toaster
+                                        position="top-center"
+                                        reverseOrder={false}
+                                        />
+                      </div>
                 </div>
-            </td>
-            <td><div className="font-bold"> {serviceName}</div></td>
-            <td className=''>
-                <div className='table-data'><p>{message}</p></div>
-            </td>
-            <th className='flex justify-end'>
-               <Link to={`/update/${review._id}`}>
-               <button className='btn btn-outline btn-success mr-2'>Update</button>
-               </Link>
-                <label>
-                    <button onClick={() => handleDelete(_id)} className='btn btn-outline btn-error'>Delete </button>
-                    <Toaster
-                        position="top-center"
-                        reverseOrder={false}
-                        />
-                </label>
-
-            </th>
            
-        </tr>
+        </>
     );
 };
 

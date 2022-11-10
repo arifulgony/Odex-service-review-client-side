@@ -57,17 +57,7 @@ const Review = () => {
                 <title>review</title>
             </Helmet>
             <h2 className="text-5xl">You have {reviews.length} Review</h2>
-            <div className="overflow-x-auto w-full">
-                <table className="table w-full">
-                    <thead>
-                        <tr>
-                            <th>Photo</th>
-                            <th>Services</th>
-                            <th >Review</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
+            <div className="card card-side bg-base-100 shadow-xl">  
                         {
                             reviews.map(review => <ReviewRow
                                 key={review._id}
@@ -76,8 +66,6 @@ const Review = () => {
 
                             ></ReviewRow>)
                         }   
-                    </tbody>
-                </table>
             </div>
         </div>
     );
