@@ -1,0 +1,45 @@
+[
+    {
+        "service_id": "01",
+        "title": "fresh food",
+        "img": "https://www.dole.com/-/media/project/dole/article-images/wann-ist-eine-mango-reif.jpg?rev=3803fcecd0964a5899ae39b0e90a3582&hash=477E6F2BF760C7CDD38F360282E424E3",
+        "price": "20.00",
+        "description": "We collect fresh and Authentic food from remote areas of different country districts and prepare it in the organic process to ensure quality. We are committed to ensuring fresh and pure food for your family's health..These foods are formalin free Very useful for us,Eating fruit is a way to get rid of various diseases in the body .These foods are formalin free Very useful for us,Eating fruit is a way to get rid of various diseases in the body.These foods are formalin free Very useful for us,Eating fruit is a way to get rid of various diseases in the body"
+    },
+    {
+        "service_id": "02",
+        "title": "Return if the food spoils",
+        "img": "https://www.eubusinessnews.com/wp-content/uploads/2021/09/French-Food-Market.jpg",
+        "price": "20.00",
+        "description":"In addition to causing food to deteriorate and taste unpleasant, some types of spoilage can be caused by pathogenic bacteria, which can have serious health consequences. For example Clostridium perfringens (common cause of spoilage in meat and poultry) and Bacillus cereus (common cause of spoilage of milk and cream) are also pathogenic. When exposed to unsuitable storage conditions, such as the Danger Zone (between 40 and 140° F), these organisms can multiply rapidly and they can release dangerous toxins that will make you sick if you consume the item, even if it’s cooked to a safe internal temperature. To keep food out of the Danger Zone, keep cold food cold, at or below 40 °F (4.4 °C) , and hot food hot, at or above 140 °F (60 °C).In addition to causing food to deteriorate and taste unpleasant, some types of spoilage can be caused by pathogenic bacteria, which can have serious health consequences. For example Clostridium perfringens (common cause of spoilage in meat and poultry) and Bacillus cereus (common cause of spoilage of milk and cream) are also pathogenic. When exposed to unsuitable storage conditions,"
+        
+    },
+    {
+        "service_id": "03",
+        "title": "Fast delivery",
+        "img": "https://www.eatthis.com/wp-content/uploads/sites/4/2020/04/food-delivery-man.jpg",
+        "price": "10.00",
+        "description":"Fast Deliver is a fast growing and promising courier and parcel service in Bangladesh. With excellent customer service, Customers can count on us to deliver best performance on their behalf. We always provide our services with our some very much professional employees. They know how much valuable your documents or parcels’ are."
+    },
+    {
+        "service_id": "04",
+        "title": "All kinds of fruits",
+        "img": "https://www.eatthis.com/wp-content/uploads/sites/4/2019/09/paleo-fruit-variety.jpg?quality=82&strip=1",
+        "price": "150.00",
+        "description": "Fruit and vegetables should be an important part of your daily diet. They are naturally good and contain vitamins and minerals that can help to keep you healthy. They can also help protect against some diseases.Fruit and vegetables are best bought when they are in season. Otherwise try frozen or canned vegetables as they are just as nutritious and budget-friendly as well.They can also help protect against some diseases.Fruit and vegetables are best bought when they are in season. Otherwise try frozen or canned vegetables as they are just as nutritious and budget-friendly as well. You should eat at least 5 serves of vegetables and 2 serves of fruit each day. Choose different colours and varieties. If you are someone who doesn’t look forward to eating fruit or vegetables, start slowly with those you do like. Try serving, flavouring or cooking them in different ways. You can also disguise them in sauces, minced meals or curries"
+    },
+    {
+        "service_id": "05",
+        "title": "Cash on delivery ",
+        "img": "https://www.reviewjournal.com/wp-content/uploads/2020/07/13955732_web1_GettyImages-1220579156.jpg",
+        "price": "30.00",
+        "description":" Cash in advance differs from cash on delivery as the buyer pays for the good or service before the product or service is delivered or shipped. Cash-in-advance payment methods, such as credit, are used to eliminate credit risk, or the risk of non-payment, for the seller. The seller benefits from cash in advance, and the buyer risks receiving delayed or damaged goods or goods that are not as expected. Cash on delivery, on the other hand, has benefits for both the buyer and the seller. For cash-on-delivery terms, goods are shipped before payment is made. For cash-in-advance terms, the seller requires the buyer to make the entire payment upfront in order to initiate the shipping process. This protects the seller from lost money for goods shipped without payment.Cash in advance is the most common form of payment for online marketplaces,e-commerce, and international business trade. Whether a business chooses to use cash on delivery or cash in advance depends on its ability to assume risk. Larger businesses may offer cash in advance for buyers because their accounts receivable and collections processes are more advanced "
+    },
+    {
+        "service_id": "06",
+        "title": "Food safety",
+        "img": "https://trio1023.com/wp-content/uploads/2021/01/delivery-man-holding-parcel-box-wearing-protective-mask-prevent-virus-covid-19-isolated-white-wall-online-shopping-shipment-fast-express-delivery-service-concept_41350-581.jpg",
+        "price": "5",
+        "description": "Food safety refers to routines in the preparation, handling and storage of food meant to prevent foodborne illness and injury. From farm to factory to fork, food products may encounter any number of health hazards during their journey through the supply chain. Safe food handling practices and procedures are thus implemented at every stage of the food production life cycle in order to curb these risks and prevent harm to consumers.As a scientific discipline, food safety draws from a wide range of academic fields, including chemistry, microbiology and engineering. These diverse schools of thought converge to ensure that food processing safety is carried out wherever food products are sourced, manufactured, prepared, stored, or sold. In this sense, food safety is a systemic approach to hygiene and accountability that concerns every aspect of the global food industry.The following article defines food safety in manufacturing and explains the importance of food safety for the global food chain. Following a brief overview of the different regulatory bodies tasked with evaluating food safety around the world, the article outlines the key principles of effective food safety regulation, the history of food safety and the consequences of unsafe food handling practices and procedures for companies and consumers."
+    }
+]
