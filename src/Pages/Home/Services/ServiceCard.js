@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-//import { FaBeer } from 'react-icons/fa';
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import './ServiceCard.css';
 import 'react-photo-view/dist/react-photo-view.css';
