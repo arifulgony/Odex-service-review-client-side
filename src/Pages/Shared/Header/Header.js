@@ -45,7 +45,6 @@ const Header = () => {
                     <img className='logo-img' src={logo} alt="" />
                 </Link>
             </div>
-            <h1>header</h1>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     {menuItems}
