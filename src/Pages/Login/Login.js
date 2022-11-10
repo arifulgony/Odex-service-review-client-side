@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { Helmet } from 'react-helmet';
+import toast, { Toaster } from 'react-hot-toast';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import Socal from '../Shared/Socal/Socal';
@@ -20,7 +21,7 @@ const Login = () => {
         login(email, password)
         .then(result => {
             const user = result.user;
-
+            toast.success('Successfully toasted!')
 
             const currentUser = {
                 email: user.email
@@ -77,7 +78,12 @@ const Login = () => {
                         </div>
                     </form>
                     <p className='text-center'>New to Account <Link className='text-orange-600 font-bold' to="/signup">Sign Up</Link> </p>
-                   <Socal />
+                    <Toaster
+                    position="top-center"
+                    reverseOrder={false}
+                    />
+                      <Socal />
+                   
                 </div>
         </div>
         </div>
