@@ -2,6 +2,7 @@
 import React from 'react';
 import { useContext } from 'react';
 import { Helmet } from 'react-helmet';
+import toast, { Toaster } from 'react-hot-toast';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
@@ -18,6 +19,7 @@ const SignUp = () => {
             logOut()
             const user = result.user;
             console.log(user);
+            toast.success(' signUp Successfully')
         })
         .catch(err => console.error(err));
     }
@@ -54,6 +56,10 @@ const SignUp = () => {
                         <div className="form-control mt-6">
                             <input className="btn btn-primary" type="submit" value="Sign Up" />
                         </div>
+                       <Toaster
+                        position="top-center"
+                        reverseOrder={false}
+                        />
                     </form>
                     <p className='text-center'>Already have an account? <Link className='text-orange-600 font-bold' to="/login">Login</Link> </p>
                 </div>
