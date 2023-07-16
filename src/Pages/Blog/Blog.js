@@ -4,7 +4,7 @@ import  './Blog.css'
 
 const Blog = () => {
     return (
-        <div className="main-contain">
+        <div className="main-contain max-w-screen-xl mx-auto">
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Blog</title>

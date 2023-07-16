@@ -4,7 +4,8 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <footer className="footer  footer-size p-32 bg-black text-white">
+     <div className=" bg-black text-white">
+           <footer className="footer  footer-size py-20 max-w-screen-xl mx-auto">
             <div>
                 <img className='logo-img' src={logo} alt="" />
                 <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
@@ -30,6 +31,7 @@ const Footer = () => {
                 <a href="/"className="link link-hover">Cookie policy</a>
             </div>
         </footer>
+     </div>
     );
 };
 

@@ -30,7 +30,7 @@ const Home = () => {
                 <title>Home</title>
             </Helmet>
             <Banner></Banner>
-            <div>
+            <div className='max-w-screen-xl mx-auto'>
             <div className='text-center mb-4'>
                 <h2 className="text-5xl py-5 font-semibold">Our Service</h2>
             </div>
@@ -57,7 +57,7 @@ const Home = () => {
                 </div>
              </div>
            
-            <div className='mb-11'>
+            <div className='mb-11 max-w-screen-xl mx-auto'>
             <h1 className='text-center text-5xl font-bold py-10'>How It Works</h1>
                 <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3  '>
                    

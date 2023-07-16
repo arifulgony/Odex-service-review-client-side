@@ -38,7 +38,7 @@ const ReviewUpdate = () => {
 
     }
     return (
-        <div>
+        <div className='max-w-screen-xl mx-auto'>
                         <Helmet>
                             <meta charSet="utf-8" />
                             <title>review update</title>
